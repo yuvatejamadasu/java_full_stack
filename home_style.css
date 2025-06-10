@@ -1,0 +1,86 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    text-transform: capitalize;
+}
+.headerclass{
+
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg,black,grey);
+}
+.websitelogoclass{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    float:right;
+}
+.headernameclass{
+    color: whitesmoke;
+    padding-left: 400px;
+    font-size: 40px;
+    text-align: center;
+   
+}
+nav{
+    background:linear-gradient(180deg,red,black);
+    padding: 10px;
+     color: black;
+    
+           
+ }
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    color: yellow; 
+      
+   
+    
+  
+}
+ nav a:hover{
+   background-color:lightgreen;
+    color:orange;
+
+}
+aside{
+    background-color: lightgray;
+    width: 200px;
+     background:linear-gradient(180deg,blue,black);
+     height: 100vh;
+}
+
+aside img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 10px 15px 10px 10px;
+}
+aside a{
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    color: yellow;
+    padding: 20px;
+}
+aside a:hover{
+    color:blue;
+    background-color: brown;
+}
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/28/945/213/architecture-building-driveway-garage-wallpaper-preview.jpg");
+
+   background-size: cover;
+    
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+    background-color: grey;
+}
